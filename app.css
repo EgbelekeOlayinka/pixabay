@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  background-image: url(./bg-img/volcano-ge025091a3_1920.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: #fff;
+  margin: -10px;
+  padding: 10px;
+  text-indent: 2px;
+}
+
+.white {
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+}
+
+#control {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  width: 90px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#the {
+  margin: 10px;
+  padding: 30px;
+  background-color: green;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.git {
+  float: right;
+  display: inline;
+  display: flex;
+}
